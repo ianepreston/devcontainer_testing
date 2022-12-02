@@ -5,14 +5,5 @@
 	"build": {
 		"dockerfile": "./Dockerfile",
 		"context": "."
-	},
-	"customizations": {
-		"vscode": {
-			"settings": {
-				"dotfiles.installCommand": "rcup -fC -d ~/.dotfiles/rcs",
-				"dotfiles.repository": "ianepreston/dots",
-				"dotfiles.targetPath": "~/.dotfiles"
-			}
-		}
 	}
 }
