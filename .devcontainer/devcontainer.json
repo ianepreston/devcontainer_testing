@@ -1,17 +1,17 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
 {
-	"name": "Ubuntu",
-	"build": {
-		"dockerfile": "./Dockerfile",
-		"context": ".",
-		"args": {
-			"POETRY_VERSION": "1.2.1",
-			"NOX_VERSION": "2022.8.7",
-			"PYENV_GIT_TAG": "v2.3.7",
-			"PYTHON_1": "3.11.0",
-			"PYTHON_2": "3.10.8",
-			"PYTHON_3": "3.9.15"
-		}
-	}
+  "name": "Ubuntu",
+  "build": {
+    "dockerfile": "./Dockerfile",
+    "context": ".",
+    "args": {
+      "POETRY_VERSION": "1.2.1",
+      "NOX_VERSION": "2022.8.7",
+      "PYENV_GIT_TAG": "v2.3.7",
+      "PYTHON_1": "3.11.0",
+      "PYTHON_2": "3.10.8",
+      "PYTHON_3": "3.9.15"
+    }
+  }
 }

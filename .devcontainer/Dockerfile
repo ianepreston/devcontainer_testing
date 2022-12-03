@@ -41,7 +41,7 @@ ENV LC_ALL en_US.UTF-8
 # Pyenv dependencies: https://github.com/pyenv/pyenv/wiki#suggested-build-environment
 RUN DEBIAN_FRONTEND=noninteractive apt install -y \
 	make \
-	build-essential \ 
+	build-essential \
 	libssl-dev \
 	zlib1g-dev \
 	libbz2-dev \
@@ -56,7 +56,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt install -y \
 	libxml2-dev \
 	libxmlsec1-dev \
 	libffi-dev \
-	liblzma-dev 
+	liblzma-dev
 
 # Switch to vscode user
 USER vscode
